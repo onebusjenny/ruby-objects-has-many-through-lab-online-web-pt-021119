@@ -18,8 +18,6 @@ class Genre
   end
   
   def artists
-    Songs.all.map do |song|
-    song.artist
-  end
+   @artists
 end
 end
